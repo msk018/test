@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     App
-    <Route path='/login' exact component={Login} /> 
+    <Route path='/' exact component={Login} /> 
     <Route path='/join' exact component={Join} /> 
     </>
   );
