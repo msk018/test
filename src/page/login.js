@@ -9,7 +9,7 @@ const Login = () => {
     }
     return (
         <div>
-            Login 
+            로그인 페이지 입니다
             <input type='text' onChange={(e) =>setText(e.target.value) } />
             <button onClick={login}>로그인</button>
         </div>

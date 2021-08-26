@@ -5,7 +5,7 @@ import React from "react"
 const Home =() => {
     return(
         <div>
-          Home
+          Home 페이지 입니다
         </div>
     )
 }

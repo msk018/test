@@ -11,9 +11,9 @@ function App() {
   
   return (
     <>
-    <div>
-    <Link to='/'>Home</Link>
-    </div>
+    {/* <div>
+    <Link to='/home'>Home</Link>
+    </div> */}
     
     <div>
     <Link to='/login'>Login</Link>
@@ -22,7 +22,7 @@ function App() {
     <Link to='/join'>Join</Link>
     </div>
     
-    <Route to='/' component={Home} />
+    {/* <Route to='/home' exact component={Home} /> */}
     <Route path='/login' exact component={Login} /> 
     <Route path='/join' exact component={Join} /> 
     </>
